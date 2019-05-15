@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "@babel/env",
+    "@babel/react",
+    "@babel/flow"
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread",
+    "react-hot-loader/babel",
+    [ "import", {
+      "libraryName": "antd",
+      "style": true
+    } ],
+    ["babel-plugin-root-import", {
+      "rootPathSuffix": "src",
+      // "rootPathPrefix": "@"
+    }]
+  ]
+}

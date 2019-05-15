@@ -1,0 +1,47 @@
+@import '../../../assets/variables.scss';
+
+.button {
+  padding:0px 34px 0px 34px;
+  background-color: map-get($colors, orange__button);
+  border-color: map-get($colors, orange__button__border);
+  text-align: left;
+  &:hover {
+    background: orange;
+    
+  }
+}
+.text{
+    color: map-get($colors,grey__text);
+    margin: 10px 0 10px 0;
+}
+.box{
+  margin:20px 20px 20px 0;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.19);
+  width:450px;
+}
+.dropdown{
+  width:500px
+}
+.title{
+  font-family: 'Segoe UI';
+  margin: 10px;
+}
+
+.tick {
+  height: 11px;
+}
+
+.red{
+  color: map-get($colors,red__text);
+}
+.footer{
+ text-align: left;
+ display: flex;
+ justify-Content:space-between;
+}
+.redtext{
+  color: map-get($colors,red__text);
+  text-align: right;
+  font-size:10px;
+  float: right;
+}
